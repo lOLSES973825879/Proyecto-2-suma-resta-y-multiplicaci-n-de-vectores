@@ -48,7 +48,7 @@ def operaciones(x1,y1,x2,y2,operación,ses,En_caso_bucle):
             break
 #Función 1
 
-def diferente_de_enteros(x1,x2,y1,y2,operación):
+def diferente_de_enteros(x1,x2,y1,y2):
     #Excepciones
     if x1 != int or y1 != int or x2 != int or y2 != int:
         print("Error, ingrese solo números enteros")
@@ -62,5 +62,6 @@ def diferente_de_enteros(x1,x2,y1,y2,operación):
         operación = input("Ingrese la operación que desea realizar (suma(+), resta(-), producto(*) ): ")
 #Función 2
 
-diferente_de_enteros(x1,x2,y1,y2,operación)
+diferente_de_enteros(x1,x2,y1,y2)
+
 operaciones(x1,y1,x2,y2,operación,ses,En_caso_bucle)
